@@ -1,0 +1,122 @@
+.banner_con_rgt {
+    max-width: 460px;
+    width: 100%;
+    float: right;
+ }
+
+ .banner_form {
+    max-width: 460px;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    margin: 20px 0px 0px;
+    border-radius: 5px;
+    padding: 10px 0px;
+ }
+
+ .banner_form h2 {
+    float: left;
+    width: 100%;
+    background-color: #383838;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 2px 0px 15px;
+    padding: 10px;
+    text-align: center;
+ }
+
+ .banner_form form {
+    /* float: left;
+    width: 100%;
+    padding: 15px 35px; */
+ }
+
+ .banner_form form input[type="email"], .banner_form form input[type="text"], .banner_form form select {
+    
+    
+    /* float: left; */
+    /* display: flex; */
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #000000;
+    outline:none;
+    font-size: 14px;
+    padding: 9px;
+    margin: 10px 0px;
+    letter-spacing: 0.4px;
+    font-weight: 400; 
+ }
+ .banner_form form select {
+    padding: 9px ;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 98% -103px;
+    background-size: 15px;
+    box-sizing: border-box;
+    
+ }
+ .order-img{
+     width: 100%;
+     margin-top: 2em;
+ }
+ 
+ .banner_form form input[type="text"]::-webkit-input-placeholder, .order_fo_1::-webkit-input-placeholder, .order_fo_2::-webkit-input-placeholder, .order_fo_4::-webkit-input-placeholder, .banner_form form input[type="email"]::-webkit-input-placeholder, .left_part_contact form textarea::-webkit-input-placeholder, .left_part_contact form input[type="text"]::-webkit-input-placeholder, .left_part_contact form input[type="email"]::-webkit-input-placeholder{
+  color: #000;
+    opacity: 1;
+ }
+ .banner_form form input[type="text"]::-moz-placeholder, .order_fo_1::-moz-placeholder, .order_fo_2::-moz-placeholder, .order_fo_4::-moz-placeholder, .banner_form form input[type="email"]::-moz-placeholder, .left_part_contact form textarea::-moz-placeholder, .left_part_contact form input[type="text"]::-moz-placeholder, .left_part_contact form input[type="email"]::-moz-placeholder{
+  color: #000;
+    opacity: 1;
+ }
+ .banner_form form input[type="text"]:-ms-input-placeholder, .order_fo_1::-ms-input-placeholder, .order_fo_2::-ms-input-placeholder, .order_fo_4::-ms-input-placeholder, .banner_form form input[type="email"]:-ms-input-placeholder, .left_part_contact form textarea:-ms-input-placeholder, .left_part_contact form input[type="text"]:-ms-input-placeholder, .left_part_contact form input[type="email"]:-ms-input-placeholder{
+  color: #000;
+    opacity: 1;
+ }
+
+ .right_btn {
+    float: left;
+    max-width: 150px;
+    width: 100%;
+    border: none;
+    background-color:  #383838;
+    padding: 10px 4px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+ }
+
+
+ .call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  
+  footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  @media(min-width:800px){
+      .order{
+      display: flex;
+      justify-content: space-between;
+      
+  }
