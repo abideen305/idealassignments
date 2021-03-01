@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.footer{
+    background-color:  #0083ff;
+    text-align: center;
+}
+section h1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .sidebar{
+        position: relative;
+    }
+
+    body{
+        background-color: aliceblue;
+    }
+
+    .dash{
+        display: flex;
+        
+    
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+}
+
+/* place order */
+* {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    appearance: none;
+  }
+  * {
+    box-sizing: border-box;
+    vertical-align: middle;
+  }
+  .tab_main {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  * {
+    touch-action: manipulation;
+  }
+  ul,
+  ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  .tab_main .tab-links {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .GAH .tab_main .tab-links {
+    text-align: left;
+  }
+  .tab_main .tab-links li {
+    display: inline-block;
+    background: rgb(238, 238, 238);
+    margin: 0px 5px;
+  }
+  .tab_main .tab-links li.active {
+    background: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 102, 0);
+    border-radius: 3px;
+    position: relative;
+  }
+  .tab_main .tab-links li.active::after {
+    top: 100%;
+    left: 50%;
+    border-style: solid;
+    border-image: initial;
+    content: " ";
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgb(255, 102, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0);
+    border-width: 10px;
+    margin-left: -10px;
+  }
+  a {
+    background-color: transparent;
+  }
+  a {
+    text-decoration: none;
+  }
+  .tab_main .tab-links li a {
+    font-size: 0.9375rem;
+    font-family: robotomedium;
+    color: rgb(0, 0, 0);
+    padding: 8px 30px;
+    display: block;
+  }
+  .tab_main .tab-links li.active a {
+    color: rgb(0, 0, 0);
+  }
+
+  
+  article,
+  aside,
+  /* footer, */
+  header,
+  nav,
+  section {
+    display: block;
+  }
+  .tab-content {
+    margin-top: 30px;
+  }
+  .tab-content .tab {
+    display: none;
+  }
+  .tab-content .tab.active {
+    display: block;
+  }
+  .New_assignment {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .noordr {
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: robotomedium;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(230, 227, 227) 0px 5px 10px;
+    border-radius: 10px;
+    padding: 50px 30px 30px;
+    min-height: 300px;
+  }
+  img {
+    border-style: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  .noordr img {
+    display: block;
+    width: 65px;
+    height: 65px;
+    margin: 0px auto 20px;
+  }
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+  .noordr p {
+    font-size: 13px;
+    margin-top: 5px;
+    font-family: robotolight;
+    color: rgb(46, 46, 46);
+    margin-bottom: 30px;
+  }
+  .noordr .odr-btn {
+    background: linear-gradient(
+        to right,
+        rgb(15, 106, 251) 0%,
+        51%,
+        rgb(1, 157, 238) 100%
+      )
+      rgb(1, 157, 238);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 767px) {
+    .tab_main {
+      margin-top: 25px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .tab_main .tab-links {
+      text-align: center;
+      border-bottom: 0px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .tab_main .tab-links li a {
+      padding: 6px 20px;
+      font-size: 0.875rem;
+      font-family: robotoregular;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .tab_main .tab-links li a {
+      padding: 6px 20px;
+      font-size: 0.875rem;
+      font-family: robotoregular;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .tab-content {
+      margin: 0px 0px 80px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .New_assignment {
+      display: inherit;
+      padding-bottom: 50px;
+    }
+  }
+  
+
+
