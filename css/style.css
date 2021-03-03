@@ -2222,6 +2222,11 @@ h3.w3f_title {
   padding-top: 20px;
   text-align: center;
 }
+
+.--heading{
+    font-weight: 700 !important;
+    font-size: 25px;
+}
 /* h1,
 h2,
 h3,
