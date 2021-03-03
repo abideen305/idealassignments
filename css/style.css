@@ -2218,32 +2218,13 @@ h3.w3f_title {
 .__heading-container {
   text-align: center;
 }
-.statics-container .info-container {
-  padding-top: 20px;
-  text-align: center;
-}
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0px;
-  margin-bottom: 0.5rem;
-} */
-.__heading-container h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
-  font-weight: 500;
-}
-.__heading-container h2.--heading {
-  font-weight: inherit;
+.--heading{ 
+  font-weight: lighter;
   display: inline-block;
   border-bottom: 1px solid rgb(221, 110, 2);
   padding-bottom: 12px;
 }
-.__heading-container h2.--heading::after {
-  border: 2px solid rgb(221, 110, 2);
+.--heading::after {
   clear: both;
   display: block;
   max-width: 40px;
