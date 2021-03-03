@@ -1858,6 +1858,27 @@ h3.w3f_title {
     }
 
   }
+  @media all and (max-width: 991px){ 
+  .email{
+    margin-left: -50px;
+    margin-bottom:10px ;
+}
+.text{
+    margin-bottom:40px ;
+    margin-left: -50px;
+}
+.drop{
+    margin-bottom:10px ;
+    margin-left: -50px;
+}
+.dead{
+    margin-bottom: 5px;
+    margin-left: -50px;
+}
+.file{
+    margin-left: -50px;
+}
+}
   @media all and (max-width: 768px){
     .email{
         padding: 10px;
@@ -2364,6 +2385,7 @@ p {
     padding-right: 30px;
     padding-left: 30px;
   }
+
 }
 @media (min-width: 1200px) {
   .container {
