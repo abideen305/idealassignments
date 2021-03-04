@@ -1877,36 +1877,11 @@ h3.w3f_title {
         margin-left: -120px;
         width: 300px;
     }
-    /* .home-file{
-        margin-left: -120px;
-    } */
+    
  }
 /* order now */
 
-  .email{
-      padding: 10px;
-      border-radius: 5px;
-      outline: none;
-      border: none;
-  }
-  .text{
-    padding: 10px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-  }
-  .drop{
-    margin-top: -30px;
-    padding: 10px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background-color: #fff;
-  }
-  .file{
-      margin-bottom: 10px;
-      border: none;
-  }
+
 
   @media all and (max-width: 1000px){
       /* .home_form{
@@ -1923,158 +1898,21 @@ h3.w3f_title {
     }
 
   }
-  @media all and (max-width: 991px){ 
-  .email{
-    margin-left: -50px;
-    margin-bottom:10px ;
-}
-.text{
-    /* margin-bottom:40px ; */
-    margin-left: -50px;
-}
-.drop{
-    margin-bottom:10px ;
-    margin-left: -50px;
-}
-.dead{
-    margin-bottom: 5px;
-    margin-left: -50px;
-}
-.file{
-    margin-left: -50px;
-}
-}
-  @media all and (max-width: 767px){
-    .email{
-        margin-left: -40px;
-        padding: 10px;
-        border-radius: 5px;
-        outline: none;
-        border: none;
-        margin-bottom: 50px;
-    }
-    .text{
-      padding: 10px;
-      border-radius: 5px;
-      outline: none;
-      border: none;
-    }
-    .drop{
-     margin-bottom: 10px;
-      padding: 10px;
-      border-radius: 5px;
-      outline: none;
-      border: none;
-      background-color: #fff;
-    }
-    .file{
-        margin-bottom: 10px;
-        border: none;
-    }
-  }
 
-  @media all and (max-width: 425px){
-    /* .home_form{
-         width: 400px;
-         margin-left: -13px;
-         height: 400px;
-         display: block;
-      } */
-      .email{
-        margin-left: -50px;
-        margin-bottom:10px ;
-    }
-    .text{
-        margin-bottom:40px ;
-        margin-left: -50px;
-    }
-    .drop{
-        margin-bottom:10px ;
-        margin-left: -50px;
-    }
-    .dead{
-        margin-bottom: 5px;
-        margin-left: -50px;
-    }
-    .file{
-        margin-left: -50px;
-    }
-    .gr-btn{
-        margin-left: -50px;
-    }
-    }
-    @media all and (max-width: 412px){
-        /* .home_form{
-            margin-left:-20px;
-        } */
-    }
+
     @media all and (max-width: 375px){
         body{
             width: 100%;
             margin: auto;
         }
-        /* .home_form{
-            width: 350px;
-            box-align: left;
-            height: 450px;
-        } */
-        .email{
-            margin-left: -50px;
-            margin-bottom:10px ;
-        }
-        .text{
-            margin-bottom:40px ;
-            margin-left: -50px;
-        }
-        .drop{
-            margin-bottom:10px ;
-            margin-left: -50px;
-        }
-        .dead{
-            margin-bottom: 5px;
-            margin-left: -50px;
-        }
-        .file{
-            margin-left: -50px;
-        }
-        .gr-btn{
-            margin-left: -50px;
-        }
+
     }
     @media all and (max-width: 320px) {
         body{
             width: 100%;
         }
-        /* .home_form{
-            width: 300px;
-            box-align: left;
-            height: 450px;
-        } */
-        .email{
-            margin-left: -60px;
+
     
-        }
-        .text{
-            margin-top: -20px;
-            margin-bottom: 20px;
-            margin-left: -60px;
-        }
-        .drop{
-            margin-bottom: 5px;
-            margin-left: -60px;
-            margin-top: -60px;
-        }
-        .dead{
-            margin-left: -60px;
-            margin-top: -20px;
-        }
-        .file{
-            margin-left: -60px;
-            margin-top: -20px;
-        }
-        .gr-btn{
-            margin-left: -60px;
-        }
     }
 
   @media (max-width: 700px){
@@ -2283,15 +2121,6 @@ h3.w3f_title {
   padding-top: 20px;
   text-align: center;
 }
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0px;
-  margin-bottom: 0.5rem;
-} */
 .__heading-container h2 {
   font-size: 28px;
   margin-bottom: 30px;
@@ -2333,20 +2162,6 @@ h6 {
         margin-left: -25px;
     }
 }
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.2;
-  font-weight: 500;
-  text-transform: capitalize !important;
-}
-p {
-  margin-top: 0px;
-  margin-bottom: 1rem;
-} */
 .statics-container .info-container p {
   font-size: 20px;
 }
