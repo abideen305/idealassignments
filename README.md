@@ -1,1 +1,1 @@
-https://ideal-assignment.netlify.app/
+http://idealassignmentshelp.netlify.app/
