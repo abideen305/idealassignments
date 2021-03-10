@@ -1,10 +1,10 @@
 .banner {
-    background: url(../images/business-banner.jpg) center no-repeat !important;
+    background: url(../images/business-banner.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    background-/size: cover;
+    background-size: cover;
     position: relative;
     z-index: 1;
 }
@@ -100,11 +100,30 @@ h3.home-banner-w3 {
     font-weight: 700;
     /* word-spacing: 4px; */
 }
+.object5{
+    margin: 20px;
+    text-align: center;
+ 
+ }
+ .object5 h2{
+     margin: 150px auto 20px auto;
+     font-size: 50px;
+
+     font-weight: 300;
+ 
+ }
+ .object5 p{
+     font-size: 20px;
+     line-height: 40px;
+ }
+ .object5 img{
+     padding: 30px;
+ }
 
 /* inner banner */
 
 .inner-banner-w3ls {
-    background: url(../images/inner-banner.jpg) no-repeat center;
+    background: url(../images/inner-banner.jpg);
     background-size: cover;
     min-height: 300px;
     position: relative;
