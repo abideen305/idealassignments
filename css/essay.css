@@ -1,5 +1,5 @@
 .banner {
-    background: url(../images/essay\ banner.jpg) center no-repeat !important;
+    background: url(../images/essay\ banner.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,14 +38,6 @@ button.btn.bg-theme {
     background: #ffffff;
     color: #000;
 }
-
-.banner-bottom-w3ls {
-    position: absolute;
-    bottom: -150px;
-    left: 14%;
-    width: 72%;
-}
-
 .bb-img h3 {
     text-transform: capitalize;
     font-size: 1.2em;
@@ -100,7 +92,44 @@ h3.home-banner-w3 {
     font-weight: 700;
     /* word-spacing: 4px; */
 }
-
+.object4{
+    margin: 20px;
+    text-align: center;
+ 
+ }
+ .object4 h2{
+     margin: 150px auto 20px auto;
+     font-size: 50px;
+     font-weight: 300;
+ 
+ }
+ .object4 p{
+     font-size: 20px;
+     line-height: 40px;
+ }
+ .object4 img{
+     padding: 30px;
+ }
+ @media all and (max-width: 768px){
+     .mdmm{
+         width: 500px;
+     }
+ }
+ @media all and (max-width: 500px){
+    .mdmm{
+        width: 400px;
+    }
+}
+@media all and (max-width: 400px){
+    .mdmm{
+        width: 350px;
+    }
+}
+@media all and (max-width: 320px){
+    .mdmm{
+        width: 300px;
+    }
+}
 /* inner banner */
 
 .inner-banner-w3ls {

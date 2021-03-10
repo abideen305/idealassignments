@@ -1,12 +1,12 @@
 .banner {
-    background: url(../images/gen\ banner.jpg) center no-repeat !important;
+    background: url(../images/gen\ banner.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 .banner_text_wthree_pvt {
@@ -37,13 +37,6 @@ button.btn.bg-theme {
 .bg-theme1 {
     background: #ffffff;
     color: #000;
-}
-
-.banner-bottom-w3ls {
-    position: absolute;
-    bottom: -150px;
-    left: 14%;
-    width: 72%;
 }
 
 .bb-img h3 {
@@ -99,6 +92,59 @@ h3.home-banner-w3 {
     width: 100%;
     font-weight: 700;
     /* word-spacing: 4px; */
+}
+.object2{
+    margin: 50px;
+    text-align: center;
+ 
+ }
+ .object2 h2{
+     margin: 150px auto 20px auto;
+     font-size: 50px;
+     font-weight: 300;
+ 
+ }
+ .object2 p{
+     font-size: 20px;
+     line-height: 40px;
+ }
+ .object2 img{
+     padding: 30px;
+     width: 60px;
+ }
+ .object2{
+    margin: 20px;
+    text-align: center;
+ 
+ }
+ .object3{
+     text-align: center;
+     margin: auto 30px;
+     column-gap: 20px;
+ }
+ .object3 h2{
+     margin: 20px auto;
+     font-size: 30px;
+     text-align: center;
+     font-weight: 300;
+ 
+ }
+ .object3 p{
+     font-size: 20px;
+     text-align: center;
+     margin: auto 30px;
+ }
+ .object3-cap{
+     padding: 30px;
+     border-radius: 6px;
+ }
+ .mdm{
+     width: 400px;
+ }
+ @media all and (max-width: 768px){
+    .mdm{
+        width: 300px;
+    }
 }
 
 /* inner banner */
