@@ -1943,12 +1943,14 @@ h3.w3f_title {
 }
 
 .ess{
+    background-color: grey;
     border: 2px solid #007677;
     text-align: center;
     padding: 9px;
 }
 
 .bus{
+    background-color: antiquewhite;
     border:2px solid #007bff;
     text-align: center;
     padding: 9px;
