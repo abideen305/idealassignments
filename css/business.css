@@ -119,6 +119,40 @@ h3.home-banner-w3 {
  .object5 img{
      padding: 30px;
  }
+ .reviews{
+     background-color: black;
+     text-align: center;
+     padding: 10px;
+ }
+ .reviews p{
+    font-size: 20px;
+    line-height: 22px;
+    color: #373737;
+    padding: 0;
+    text-align: justify;
+    color: #fff;
+    text-align: left;
+    margin: 3px 0 15px;
+ }
+ .reviews h2 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 40px;
+    font-weight: inherit;
+    border-bottom: 1px solid #dd6e02;
+    padding: 0 0 12px;
+    display: inline-block;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.reviews .border-left {
+    width: 400px;
+    border-left: 5px solid #dd6e02!important;
+    margin-bottom: 10px;
+}
+
 
 /* inner banner */
 

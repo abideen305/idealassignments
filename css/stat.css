@@ -133,7 +133,7 @@ h3.home-banner-w3 {
 }
 .last h5{
     font-weight: 300;
-    margin: auto 50px;
+    margin: 0 20px;
 }
 
 /* inner banner */
@@ -185,6 +185,7 @@ span.sub-title {
     font-size: 1em;
     color: #333;
 }
+
 @media all and (max-width: 786px){
      body{
         width: 100%;
@@ -216,6 +217,7 @@ span.sub-title {
     .mg-fluid{
         width: 300px;
     }
+    
 }
 
 @media all and (max-width: 320px){
@@ -242,5 +244,6 @@ span.sub-title {
     .home-dead{
         width: 270px;
     }
+    
 }
 
