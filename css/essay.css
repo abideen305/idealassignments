@@ -98,7 +98,7 @@ h3.home-banner-w3 {
  
  }
  .object4 h2{
-     margin: 150px auto 20px auto;
+     margin: 30px auto 20px auto;
      font-size: 50px;
      font-weight: 300;
  
@@ -130,6 +130,59 @@ h3.home-banner-w3 {
         width: 300px;
     }
 }
+.main-cap{
+    font-size: 50px;
+    margin: 30px auto 20px;
+    border-bottom: 1px solid #dd6e02;
+    padding: 0 0 12px;
+    display: inline-block;
+    position: relative;
+}
+.main-cap2{
+    font-size: 20px;
+    list-style: 1.5px;
+}
+.main-cap::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    background: #dd6e02;
+    width: 40px;
+    height: 4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 10;
+}
+b{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+.objective{
+    margin-top: 40px;
+    text-align: center;
+}
+.objective h2{
+    font-size: 50px;
+    margin: 20px auto;
+
+}
+.objective-cap{
+    font-size: 20px;
+}
+.objective-cap2{
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+.ordinary img{
+    width: 100px;
+}
+
 /* inner banner */
 
 .inner-banner-w3ls {
