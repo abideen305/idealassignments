@@ -120,15 +120,15 @@ h3.home-banner-w3 {
  }
  .reviews{
      /* background-color:#0083ff; */
-     background-color: rgb(0, 131, 255);
-     opacity: 1;
+     background-color: #dd6e02;
+     opacity: 40px;
      text-align: center;
      padding: 10px;
  }
  .reviews p{
     font-size: 20px;
     line-height: 22px;
-    color: #373737;
+    color: #373737 !important;
     padding: 0;
     text-align: justify;
     color: #fff;
@@ -195,9 +195,6 @@ li.breadcrumb-item a {
     width: 300px;
 }
 
-/* //inner banner */
-
-/* title */
 
 .wthree_pvt_title {
     margin-bottom: 5em;

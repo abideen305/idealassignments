@@ -96,17 +96,28 @@ h3.home-banner-w3 {
 .object2{
     margin: 50px;
     text-align: center;
- 
+    color: #dd6e02 !important;
+    color: green;
+   
  }
  .object2 h2{
      margin: 150px auto 20px auto;
      font-size: 50px;
      font-weight: 300;
+     background-color:aliceblue;
+     text-transform: uppercase;
+    outline-color: green;
  
  }
+
+ .object2 h2:hover{
+     color: green;
+ }
+
  .object2 p{
      font-size: 20px;
      line-height: 40px;
+
  }
  .object2 img{
      padding: 30px;
@@ -197,3 +208,25 @@ span.sub-title {
     color: #333;
 }
 
+h2{
+    color: #dd6e02;
+    text-orientation:sideways-right;
+    background-color:aliceblue;
+    text-transform: uppercase;
+}
+
+.other_help{
+    text-align: center;
+}
+
+.other_help ul li{
+    list-style: lower-greek;
+}
+
+.others_list{
+    list-style-type: lower-latin;
+}
+
+h2:hover{
+    color: green;
+}
