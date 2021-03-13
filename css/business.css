@@ -40,8 +40,7 @@ button.btn.bg-theme {
 }
 
 .banner-bottom-w3ls {
-    position: absolute;
-    bottom: -150px;
+    position: relative;
     left: 14%;
     width: 72%;
 }
@@ -191,6 +190,9 @@ li.breadcrumb-item a {
     color: #000000;
     text-transform: capitalize;
     font-weight: 600;
+}
+.w3l-index-block4 img{
+    width: 300px;
 }
 
 /* //inner banner */
