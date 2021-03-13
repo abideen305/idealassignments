@@ -120,7 +120,9 @@ h3.home-banner-w3 {
      padding: 30px;
  }
  .reviews{
-     background-color: black;
+     /* background-color:#0083ff; */
+     background-color: rgb(0, 131, 255);
+     opacity: 1;
      text-align: center;
      padding: 10px;
  }
@@ -154,6 +156,23 @@ h3.home-banner-w3 {
 }
 
 
+.inner_service, .text-head { 
+    color:#dd6e02; 
+    margin: 30px; 
+    font-size: 20px; 
+    padding: 0px 0px 5px; 
+
+}
+
+.business_need{
+    background-color:#dd6e02;
+    
+}
+
+.bnr-txt{
+    color: whitesmoke !important; 
+    text-transform: uppercase;
+}
 /* inner banner */
 
 .inner-banner-w3ls {
