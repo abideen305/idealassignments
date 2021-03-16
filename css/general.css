@@ -156,6 +156,15 @@ h3.home-banner-w3 {
     .mdm{
         width: 300px;
     }
+    .object3 p{
+      margin: auto 30px;
+    }
+}
+
+@media all and (max-width: 768px){
+  .object3 p{
+    margin: auto ;
+  }
 }
 
 /* inner banner */
@@ -209,9 +218,7 @@ span.sub-title {
 }
 
 h2{
-    color: #dd6e02;
     text-orientation:sideways-right;
-    background-color:aliceblue;
     text-transform: uppercase;
 }
 
@@ -224,14 +231,19 @@ h2{
 }
 
 .others_list{
-    list-style-type: lower-latin;
+    font-size: 30px;
+    text-align: start ;
 }
 
 h2:hover{
     color: green;
 }
 
-
+.fa-check-circle{
+  font-size: 30px;
+  color: green;
+  margin: 20px 50px;
+}
 
 .testimonials {
     text-align: center;
@@ -240,7 +252,7 @@ h2:hover{
     background: rgb(255, 255, 255);
   }
   
-  }
+  
   .heading::after {
     display: none !important;
   }
@@ -458,7 +470,7 @@ h2:hover{
   }
   @media (max-width: 767px) {
     .testimonials .heading {
-      padding: 0px;
+      text-align: center;
     }
   }
   @media screen and (min-width: 768px) {
@@ -468,18 +480,13 @@ h2:hover{
   }
   @media screen and (min-width: 768px) {
     .testimonials .heading {
-      padding: 0px;
+      text-align: center;
     }
   }
   @media screen and (min-width: 1024px) {
     .heading {
       font-size: 1.75rem;
       font-family: robotobold;
-    }
-  }
-  @media screen and (min-width: 1024px) {
-    .testimonials .heading {
-      /* padding-bottom: 15px; */
     }
   }
   @media (max-width: 767px) {
