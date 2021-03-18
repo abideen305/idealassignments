@@ -1,4 +1,4 @@
-.banner {
+/* .banner {
     background: url(/images/stat\ banner.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7,7 +7,7 @@
     background-size: cover;
     position: relative;
     z-index: -1;
-}
+} */
 
 .banner_text_wthree_pvt {
     padding: 15vw 0;
@@ -186,6 +186,15 @@ span.sub-title {
     color: #333;
 }
 
+.last h4{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(238, 133, 15);
+    
+}
+
+
+
 @media all and (max-width: 786px){
      body{
         width: 100%;
@@ -247,3 +256,20 @@ span.sub-title {
     
 }
 
+.features h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+    color: rgb(238, 133, 15);
+}
+
+.features p{
+        text-align: center;
+        font-family: inherit;
+        font-weight: 400;
+        line-height: 1.45;
+        margin-bottom: 17px;
+        font-size: 17px;
+    
+}
