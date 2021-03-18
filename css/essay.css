@@ -99,12 +99,12 @@ h3.home-banner-w3 {
  }
  .object4 h2{
      margin: 30px auto 20px auto;
-     font-size: 50px;
+     font-size: 40px;
      font-weight: 300;
  
  }
  .object4 p{
-     font-size: 20px;
+     font-size: 15px;
      line-height: 40px;
  }
  .object4 img{
@@ -131,7 +131,7 @@ h3.home-banner-w3 {
     }
 }
 .main-cap{
-    font-size: 50px;
+    font-size: 40px;
     margin: 30px auto 20px;
     border-bottom: 1px solid #dd6e02;
     padding: 0 0 12px;
@@ -139,7 +139,7 @@ h3.home-banner-w3 {
     position: relative;
 }
 .main-cap2{
-    font-size: 20px;
+    font-size: 15px;
     list-style: 1.5px;
 }
 .main-cap::after {
@@ -167,12 +167,12 @@ b{
     text-align: center;
 }
 .objective h2{
-    font-size: 50px;
+    font-size: 40px;
     margin: 20px auto;
 
 }
 .objective-cap{
-    font-size: 20px;
+    font-size: 15px;
 }
 .objective-cap2{
     margin-top: 40px;

@@ -160,10 +160,13 @@ h3.home-banner-w3 {
     padding: 0px 0px 5px; 
 
 }
+.img-thumbnail{
+    width: 300px;
+}
 
 .business_need{
     font-weight: 100px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .bnr-txt{
