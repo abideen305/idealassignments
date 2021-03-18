@@ -10,7 +10,7 @@
 }
 
 .banner_text_wthree_pvt {
-    padding: 15vw 0;
+    padding: 15vw 0 5vw;
 }
 
 .banner:before,
@@ -47,6 +47,9 @@ button.btn.bg-theme {
     grid-template-columns: 100px auto 100px;
     column-gap: 50px;
 }
+.img-thumbnail{
+    width: 300px;
+}
 
 .bb-img h3 {
     text-transform: capitalize;
@@ -64,7 +67,7 @@ button.btn.bg-theme {
 }
 .object h2{
     margin: 20px auto;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 300;
 
 }
@@ -74,6 +77,7 @@ button.btn.bg-theme {
 }
 .object img{
     padding: 30px;
+    width: 500px;
 }
 
 .md{

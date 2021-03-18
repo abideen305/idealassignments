@@ -1966,15 +1966,17 @@ h3.w3f_title {
     padding: 20px;
     width: 300px;
     color: #0b0c10;
+    font-size: 20px;
   }
   .header-section p{
-      font-size: 20px;
+      font-size: 15px;
   }
   .w3l-index-block4 .feature-16-main {
     background: var(--light-bg-color); }
   
   .w3l-index-block4 .feature-16-gd h4 {
-    font-size: 25px;
+      text-align: center;
+    font-size: 20px;
     line-height: 30px;
     color: var(--title-color);
     font-weight: 700; }
@@ -2126,7 +2128,7 @@ h3.w3f_title {
   text-align: center;
 }
 .__heading-container h2 {
-  font-size: 28px;
+  font-size: 20px;
   margin-bottom: 30px;
   font-weight: 500;
 }
@@ -2174,7 +2176,8 @@ h3.w3f_title {
     }
 }
 .statics-container .info-container p {
-  font-size: 20px;
+    margin-top: 5px;
+    font-size: 15px;
 }
 @media (min-width: 576px) {
   .container {
