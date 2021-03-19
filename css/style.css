@@ -1816,7 +1816,7 @@ h3.w3f_title {
     height: 450px;
   }
 .home_form_cap{
-    margin: 50px auto auto auto;
+    margin: 30px auto 20px;
     font-weight: bold;
     text-align: center;
 }
@@ -2088,6 +2088,9 @@ h3.w3f_title {
  
 
 
+.img-thumbnail{
+    width: 300px;
+}
 
  /* Introduction contents */
  *,
