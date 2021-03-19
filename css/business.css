@@ -1,3 +1,18 @@
+p{
+    font-size: 12px !important;
+    font-family: robotoregular !important;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 21px !important;
+    font-family: robotomedium !important;
+    
+    
+
+}
+
+
 .banner {
     background: url(../images/business-banner.jpg);
     -webkit-background-size: cover;
@@ -18,8 +33,8 @@
     position: absolute;
     content: '';
     background: rgba(0, 0, 0, 0.24);
-    width: 100%;
-    height: 100%;
+ width: 50%;
+    height: 50%; 
     top: 0;
     left: 0;
     z-index: -1;
@@ -120,7 +135,7 @@ h3.home-banner-w3 {
  }
  .reviews{
      /* background-color:#0083ff; */
-     background-color: #dd6e02;
+     background-color: #6EC5E9 !important;
      opacity: 40px;
      text-align: center;
      padding: 10px;

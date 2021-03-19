@@ -1,3 +1,15 @@
+p{
+  font-size: 12px !important;
+  font-family: robotoregular !important;
+  
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-size: 21px !important;
+  font-family: robotomedium !important;
+
+}
+
 .banner {
     background: url(../images/gen\ banner.jpg);
     -webkit-background-size: cover;

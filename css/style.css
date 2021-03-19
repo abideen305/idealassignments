@@ -4,6 +4,22 @@
     padding: 0%;
 }
 
+p{
+    font-size: 12px !important;
+    font-family: robotoregular !important;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 21px !important;
+    font-family: robotomedium !important;
+    
+    
+
+}
+
+
+
 html,body
 {
     width: 100%;
@@ -618,7 +634,7 @@ input.form-control.bg-theme {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 button.btn.bg-theme {
