@@ -250,7 +250,7 @@ div.other_help{
 }
 @media screen and (max-width: 425px){
     .others_list li{
-      font-size: 20px;
+      font-size: 15px;
       margin: auto;
       text-align: start;
     }
@@ -259,7 +259,7 @@ div.other_help{
 .fa-check-circle{
   font-size: 30px;
   color: green;
-  margin: 20px 50px;
+  margin: 20px 30px;
 }
 
 .testimonials {
