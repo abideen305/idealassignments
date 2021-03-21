@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .banner {
-    background: url(../images/business-banner.jpg);
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url(../images/business-banner.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .banner_text_wthree_pvt {
-    padding: 15vw 0;
+    padding: 15vw 0 5vw;
 }
 
 .banner:before,
@@ -73,7 +73,7 @@ button.btn.bg-theme {
     font-size: 1.2em;
     text-align: center;
     margin: 1em 0 1.5em;
-    color: #000;
+    color: red;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
 }
@@ -129,8 +129,7 @@ h3.home-banner-w3 {
  }
  .object5 h2{
      margin: 150px auto 20px auto;
-     font-size: 50px;
-
+     font-size: 40px;
      font-weight: 300;
  
  }

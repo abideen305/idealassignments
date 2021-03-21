@@ -64,7 +64,7 @@ button.btn.bg-theme {
     font-size: 1.2em;
     text-align: center;
     margin: 1em 0 1.5em;
-    color: #000;
+    color: red;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
 }
@@ -243,12 +243,17 @@ div.other_help{
 
 .other_help ul li{
     list-style: lower-greek;
-    text-align: center;
 }
 
 .others_list{
     font-size: 30px;
-    text-align: start ;
+}
+@media screen and (max-width: 425px){
+    .others_list li{
+      font-size: 20px;
+      margin: auto;
+      text-align: start;
+    }
 }
 
 .fa-check-circle{
