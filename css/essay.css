@@ -119,7 +119,8 @@ h3.home-banner-w3 {
  }
  .object4 h2{
      margin: 30px auto 20px auto;
-     font-size: 40px;
+     font-size: 24px !important;
+     font-family: robotomedium;
      font-weight: 300;
  
  }
@@ -187,7 +188,7 @@ b{
     text-align: center;
 }
 .objective h2{
-    font-size: 40px;
+    font-size: 30px;
     margin: 20px auto;
 
 }

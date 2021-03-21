@@ -78,7 +78,7 @@ button.btn.bg-theme {
     font-size: 1.2em;
     text-align: center;
     margin: 1em 0 1.5em;
-    color: #000;
+    color:red;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
 }
@@ -89,9 +89,16 @@ button.btn.bg-theme {
 }
 .object h2{
     margin: 20px auto;
-    font-size: 35px;
+    font-size: 24px !important;
+    font-family: robotomedium !important;
     font-weight: 300;
+    color: aliceblue;
+    background: green;
 
+}
+
+.object h2:hover{
+    color: rgb(238, 133, 15);
 }
 .object p{
     font-size: 20px;
@@ -284,8 +291,11 @@ span.sub-title {
 
 .features h2 {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 300;
+    font-size: 24px !important;
+    font-family: robotomedium !important;
     text-align: center;
+    padding: 24px;
     margin-bottom: 12px;
     color: rgb(238, 133, 15);
 }
@@ -296,6 +306,7 @@ span.sub-title {
         font-weight: 400;
         line-height: 1.45;
         margin-bottom: 17px;
-        font-size: 17px;
+        font-size: 15px !important;
+
     
 }
