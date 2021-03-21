@@ -1,7 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 p{
- 
-  font-family: robotoregular !important;
-  
+    
+    font-family: robotoregular !important;
+ font-size: 15px !important;
+    
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -83,7 +91,7 @@ button.btn.wthree-link-bnr:hover {
     color: #000;
 }
 
-p.bnr-txt {
+h4.bnr-txt {
     width: 100%;
     color: #fff;
     font-size: 1.7em;
@@ -229,12 +237,13 @@ h2{
     text-transform: uppercase;
 }
 
-.other_help{
+div.other_help{
     text-align: center;
 }
 
 .other_help ul li{
     list-style: lower-greek;
+    text-align: center;
 }
 
 .others_list{

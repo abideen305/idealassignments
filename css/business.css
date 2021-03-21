@@ -1,6 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 p{
     
     font-family: robotoregular !important;
+      font-size: 15px !important;
     
 }
 
@@ -92,7 +100,7 @@ button.btn.wthree-link-bnr:hover {
     color: #000;
 }
 
-p.bnr-txt {
+h4.bnr-txt {
     width: 100%;
     color: #fff;
     font-size: 1.7em;
