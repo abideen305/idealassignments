@@ -117,12 +117,12 @@ h3.home-banner-w3 {
     margin: 50px;
     text-align: center;
     color: #dd6e02 !important;
-    color: green;
+   
    
  }
  .object2 h2{
      margin: 150px auto 20px auto;
-     font-size: 35px;
+     font-size: 24px !important;
      font-weight: 300;
      background-color:aliceblue;
      text-transform: uppercase;
@@ -150,13 +150,20 @@ h3.home-banner-w3 {
  }
  .object3 h2{
      margin: 20px auto;
-     font-size: 30px;
+     font-size: 15px !important;
+     font-family: robotomedium !important;
      text-align: center;
      font-weight: 300;
+     color: #dd6e02;
  
  }
+
+ .object3 h2:hover{
+   color: green;
+ }
  .object3 p{
-     font-size: 15px;
+     font-size: 15px !important;
+     font-family: robotoregular !important;
      text-align: center;
      margin: auto 30px;
  }
@@ -164,6 +171,18 @@ h3.home-banner-w3 {
      padding: 30px;
      margin-bottom: 40px;
  }
+
+ .customers_review{
+   text-align: center;
+   font-size: 15px !important;
+   background-color: aliceblue;
+   color: #dd6e02;
+   font-weight: 300;
+  
+ }
+
+
+
  .mdm{
      width: 300px;
  }
@@ -235,6 +254,12 @@ span.sub-title {
 h2{
     text-orientation:sideways-right;
     text-transform: uppercase;
+    
+}
+
+.other_help h2{
+  font-size: 24px !important;
+  color: gold;
 }
 
 div.other_help{
@@ -246,7 +271,8 @@ div.other_help{
 }
 
 .others_list{
-    font-size: 30px;
+    font-size: 15px;
+    font-family: roboregular;
 }
 @media screen and (max-width: 425px){
     .others_list li{
@@ -257,10 +283,11 @@ div.other_help{
 }
 
 .fa-check-circle{
-  font-size: 30px;
+  font-size: 12px;
   color: green;
   margin: 20px 50px;
 }
+
 
 .testimonials {
     text-align: center;

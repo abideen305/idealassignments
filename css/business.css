@@ -245,3 +245,7 @@ span.sub-title {
     color: #333;
 }
 
+div h2:hover{
+  background-color: green;
+    
+}
