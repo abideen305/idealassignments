@@ -254,3 +254,8 @@ span.sub-title {
     color: #333;
 }
 
+@media all and (max-width: 347px){
+    .home_form_cap{
+        margin: 20px auto 10px;
+    }
+}
