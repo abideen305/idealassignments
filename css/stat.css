@@ -66,6 +66,7 @@ button.btn.bg-theme {
     bottom: 20px;
     left: 14%;
     width: 72%;
+    margin-top: 20px;
     grid-template-columns: 100px auto 100px;
     column-gap: 50px;
 }
@@ -297,7 +298,7 @@ span.sub-title {
     font-size: 24px !important;
     font-family: robotomedium !important;
     text-align: center;  
-    margin-bottom: 12px;
+    margin: 20px;
     color: rgb(238, 133, 15);
     border: 2px solid;
 }
