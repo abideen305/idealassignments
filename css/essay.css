@@ -90,12 +90,13 @@ button.btn.wthree-link-bnr:hover {
     color: #000;
 }
 
-h4.bnr-txt {
+p.bnr-txt {
     width: 100%;
     color: #fff;
     font-size: 1.7em;
     margin: 0.5em 0 1.2em;
     line-height: 2;
+    text-transform: inherit !important;
 }
 
 button.wthree-link-bnr:hover {
