@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .banner_text_wthree_pvt {
-    padding: 15vw 0 5vw;
+    padding: 10vw 0 5vw;
 }
 
 .banner:before,
@@ -303,7 +303,7 @@ span.sub-title {
     font-size: 24px !important;
     font-family: robotomedium !important;
     text-align: center;  
-    margin: auto;
+    margin: 30px auto;
     width: 500px;
     background-color: #0083ff;
     border: 2px solid orange;
