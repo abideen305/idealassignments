@@ -1960,20 +1960,22 @@ h3.w3f_title {
       padding: 9px;
   }
   .gen{
-    border:2px solid #f58e0e;
+    border:2px solid orange;
+    background-color: #0083ff !important;
     padding: 9px;
     text-align: center;
 }
 
 .ess{
-    background-color: grey;
+    background-color: #0083ff;
     border: 2px solid #007677;
     text-align: center;
     padding: 9px;
 }
 
+
 .bus{
-    background-color: antiquewhite;
+    background-color: orange;
     border:2px solid #007bff;
     text-align: center;
     padding: 9px;
@@ -1985,10 +1987,11 @@ h3.w3f_title {
   .header-section h2{
     margin: auto;
     text-align: center;
-    border:2px solid #0b0c10 ;
+    border:2px solid orange ;
+    background-color: #0083ff;
     padding: 20px;
     width: 300px;
-    color: #0b0c10;
+    color: #fff !important;
     font-size: 20px;
   }
   .header-section p{
@@ -2144,7 +2147,7 @@ h3.w3f_title {
 }
 .pt-0,
 .py-0 {
-  padding-top: 0px !important;
+  /* padding-top: 0px !important; */
 }
 .statics-container {
   padding-top: 40px;
@@ -2168,6 +2171,7 @@ h3.w3f_title {
     margin-top: 30px;
     align-items: center;
     border:2px solid #0b0c10 ;
+    background-color: orange;
     padding: 20px;
     width: 320px;
     color: #0b0c10;
