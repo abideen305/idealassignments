@@ -19,99 +19,99 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .banner {
-    background: url(../images/gen\ banner.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
+  background: url(../images/genbanner.jpg) center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
 }
 
 .banner_text_wthree_pvt {
-    padding: 10vw 0;
+  padding: 10vw 0;
 }
 
 .banner:before,
 .inner-banner-w3ls:before {
-    position: absolute;
-    content: '';
-    background: rgba(0, 0, 0, 0.24);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  position: absolute;
+  content: '';
+  background: rgba(0, 0, 0, 0.24);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 button.btn.bg-theme {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .bg-theme {
-    background: #00f2aa;
-    color: #fff;
+  background: #00f2aa;
+  color: #fff;
 }
 
 .bg-theme1 {
-    background: #ffffff;
-    color: #000;
+  background: #ffffff;
+  color: #000;
 }
 
 .bb-img h3 {
-    text-transform: capitalize;
-    font-size: 1.2em;
-    text-align: center;
-    margin: 1em 0 1.5em;
-    color: red;
-    font-weight: 600;
-    font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em 0 1.5em;
+  color: red;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
 }
 
 
 .wthree-link-bnr {
-    padding: 8px 25px;
-    color: #fff;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 14px;
-    background: #0083ff;
-    border: 1.5px solid #ffffff;
-    text-transform: uppercase;
+  padding: 8px 25px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  background: #0083ff;
+  border: 1.5px solid #ffffff;
+  text-transform: uppercase;
 }
 
 .wthree-link-bnr:hover {
-    color: #fff;
-    opacity: .8;
+  color: #fff;
+  opacity: .8;
 }
 
 button.btn.wthree-link-bnr:hover {
-    background: #fff;
-    color: #000;
+  background: #fff;
+  color: #000;
 }
 
 h4.bnr-txt {
-    width: 100%;
-    color: #fff;
-    font-size: 1.7em;
-    margin: 0.5em 0 1.2em;
-    line-height: 2;
+  width: 100%;
+  color: #fff;
+  font-size: 1.7em;
+  margin: 0.5em 0 1.2em;
+  line-height: 2;
 }
 
 button.wthree-link-bnr:hover {
-    background: #0083ff;
-    color: #fff;
+  background: #0083ff;
+  color: #fff;
 }
 
 h3.home-banner-w3 {
-    color: #fff;
-    font-size: 2.5em;
-    line-height: 1.4;
-    text-transform: capitalize;
-    width: 100%;
-    font-weight: 700;
-    /* word-spacing: 4px; */
+  color: #fff;
+  font-size: 2.5em;
+  line-height: 1.4;
+  text-transform: capitalize;
+  width: 100%;
+  font-weight: 700;
+  /* word-spacing: 4px; */
 }
 .object2{
     margin: 50px;
@@ -276,9 +276,9 @@ div.other_help{
     text-align: center;
 }
 
-.other_help ul li{
+/* .other_help ul li{
     list-style: lower-greek;
-}
+} */
 
 .others_list{
     font-size: 15px;

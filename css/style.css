@@ -723,7 +723,7 @@ h3.home-banner-w3 {
 /* inner banner */
 
 .inner-banner-w3ls {
-    background: url(../images/inner-banner.jpg) no-repeat center;
+    background: url(../images/register.jpg) no-repeat center;
     background-size: cover;
     min-height: 300px;
     position: relative;
@@ -832,7 +832,7 @@ h4.home-title {
 /* slide */
 
 .slide-banner {
-    background: url(../images/g6.jpg) no-repeat center;
+    background: url(../images/login.jpg) no-repeat center;
     background-size: cover;
     min-height: 500px;
 }
@@ -971,7 +971,7 @@ a.blog_link {
 }
 
 .slide-img {
-    background: url(../images/banner.jpg) no-repeat center;
+    background: url(../images/businessNew.jpg) no-repeat center;
     background-size: cover;
     min-height: 500px;
 }
