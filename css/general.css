@@ -210,6 +210,16 @@ h3.home-banner-w3 {
     margin: auto ;
   }
 }
+@media all and (max-width: 425px){
+  .object2 h2{
+    padding: 10px;
+    width: 300px;
+  }
+
+.customers_review {
+  width: 300px;
+}
+}
 
 /* inner banner */
 

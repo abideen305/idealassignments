@@ -247,6 +247,11 @@ span.sub-title {
         width: 600px;
     }
 }
+@media all and (max-width: 640px){
+    .object img{
+        width: 400px;
+    }
+}
 
 @media all and (max-width: 425px){
     body{
@@ -258,6 +263,7 @@ span.sub-title {
     }
     .object h2{
         font-size: 35px;
+        width: 300px;
     }
     .object img{
         width: 300px;
@@ -308,6 +314,11 @@ span.sub-title {
     background-color: #0083ff;
     border: 2px solid orange;
     color: white;
+}
+@media all and (max-width:425px){
+    .features h2{
+        width: 300px;
+    }
 }
 
 .features p{
