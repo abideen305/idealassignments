@@ -2145,10 +2145,6 @@ h3.w3f_title {
   flex: 0 0 100%;
   max-width: 100%;
 }
-.pt-0,
-.py-0 {
-  /* padding-top: 0px !important; */
-}
 .statics-container {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -2280,3 +2276,16 @@ h3.w3f_title {
 
 
 /* delivered order */
+
+
+
+
+
+
+
+
+
+
+
+
+ 
