@@ -181,7 +181,7 @@ h3.home-banner-w3 {
 .inner-banner-w3ls {
     background: url(../images/inner-banner.jpg) no-repeat center;
     background-size: cover;
-    min-height: 300px;
+    height: 20vh;
     position: relative;
     z-index: 0;
 }
