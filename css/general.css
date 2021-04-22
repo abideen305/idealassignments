@@ -19,14 +19,14 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .banner {
-  background: url(../images/genbanner.jpg) center no-repeat;
+  background: url(../images/genbanner.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
+  min-height: 300px;
   background-size: cover;
   position: relative;
-  z-index: -1;
 }
 
 .banner_text_wthree_pvt {
