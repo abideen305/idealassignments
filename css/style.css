@@ -6,6 +6,11 @@
     padding: 0%;
 }
 
+/* root visibility */
+/* :root{
+  visibility: hidden;
+} */
+
 p{
     
     font-family: robotoregular !important;
@@ -22,7 +27,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-
+/* 
 html,body
 {
     width: 100%;
@@ -30,9 +35,9 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-}
+} */
 
-body a,
+/* body a,
 .w3ls-btn {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -41,7 +46,7 @@ body a,
     -ms-transition: 0.5s all;
     text-decoration: none;
     outline: none;
-}
+} */
 
 
 
@@ -85,7 +90,7 @@ body a:focus {
     background-color: transparent;
 }
 
-button,
+/* button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
@@ -94,7 +99,7 @@ html [type="button"],
 
 html {
     scroll-behavior: smooth;
-}
+} */
 
 /* colors code */
 .text-bl {
@@ -2098,7 +2103,9 @@ h3.w3f_title {
     position: fixed;
     top: 45%;
     transform: rotate(270deg);
-    right: -45px;
+/*     right: -45px; */
+/*  Initially set to -45px to stick to the scrolling bar but now to 1px to stay alone*/
+      right : 1px;
     padding: 11px 15px;
     font-size: 15px;
     letter-spacing: 0.4px;
@@ -2108,6 +2115,7 @@ h3.w3f_title {
     border-radius: 5px 5px 0px 0px;
     cursor: pointer;
  }
+
  
  @media all and (max-width: 347px){
     .home_form_cap{
